@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+body{
+    background-color: rgb(250, 233, 0);
+}
+
+section{
+    background-color: blue;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    
+}
+
+section div{
+    background-color: rgb(250, 233, 0);
+    height: 80px;
+    width: 50%;
+    width: 50%;
+    margin: 20px;
+}
+
+section div img{
+    background-color: black;
+    height: 200%;
+    width: 200%;
+    border-radius: 60%;
+    
+
+}
+
+section div p{
+    font-size: 25px;
+}
+
+section div button {
+    height: ;
+}
