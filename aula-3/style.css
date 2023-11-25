@@ -17,7 +17,7 @@ section{
 
 header{
     width: 100%;
-    background-color: rgb(218, 218, 0);
+    background-color: darkgoldenrod;
     height: 150px;
 }
 
@@ -26,6 +26,19 @@ main{
     background-color: purple;
     height: 500px;
     display: flex;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+
+main .ingredientes-conteudo h2{
+    color: darkgoldenrod;
+}
+
+.lista-ingredientes {
+    padding: 20px;
 }
 
 footer{
@@ -50,6 +63,41 @@ main .ingredientes-conteudo{
 main .modo-preparo-conteudo{
     background-color: rgb(95, 0, 95);
     width: 70%;
+}
+main .ingredientes-conteudo h2 {
+    color: darkgoldenrod;
+}
+
+.lista-ingredientes {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-ingredientes ul {
+    list-style: none;
+}
+
+.lista-ingredientes ul li {
+    padding: 5px;
+    font-weight: bolder;
+}
+
+main .modo-preparo-conteudo h2 {
+    color: darkgoldenrod;
+}
+
+.lista-modo-preparo {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.lista-modo-preparo ol li{
+    padding: 5px;
+    font-weight: bolder;
 }
 
 footer{
